@@ -1,0 +1,24 @@
+{
+  "name": "appstore-revenue-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for fetching Apple App Store revenue data via Sensor Tower API",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "keywords": ["mcp", "appstore", "revenue", "sensortower"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.15.0",
+    "node-fetch": "^3.3.2",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "typescript": "^5.8.3"
+  }
+}
