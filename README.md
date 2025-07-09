@@ -153,4 +153,4 @@ sensortower-mcp/
 
 ## License
 
-ISC
+MIT
